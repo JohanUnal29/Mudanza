@@ -1,0 +1,19 @@
+.topnav {
+  display: flex;
+  list-style-type: none;
+  background-color: #333333;
+  padding: 10px;
+  justify-content: space-evenly;
+  width: 400px;
+  border-radius: map-get($borders, borderRadius);
+  li {
+    a {
+      color: map-get($links, linksHeaderColor);
+      text-decoration: none;
+      transition: all 0.5s ease;
+      &:hover {
+        color:  map-get($links, linksHeaderColorHover);
+      }
+    }
+  }
+}

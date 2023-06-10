@@ -1,0 +1,23 @@
+.FullPageScroll1{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://drive.google.com/uc?export=download&id=1YGy51tBdIHq_yw1G1jszgYorOeQhsIjh") no-repeat center center;
+    background-size: cover;
+}
+.FullPageScroll2{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.FullPageScroll3{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

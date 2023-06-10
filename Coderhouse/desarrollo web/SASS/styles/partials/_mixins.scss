@@ -1,0 +1,28 @@
+@mixin botones($bgColor, $textColor, $borderColor, $padding: 10px, $radius: false) {
+  border: none;
+  padding: $padding;
+  background-color: $bgColor;
+  color: $textColor;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 03px solid $borderColor;
+  cursor: pointer;
+  @if $radius {
+    border-radius: 05px;
+  } @else {
+    border-radius: 0;
+  }
+}
+
+@mixin flex($direction: row, $justify, $align, $height, $width, $wrap: false) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  height: $height;
+  width: $width;
+  @if $wrap {
+    flex-wrap: wrap;
+  } @else {
+    flex-wrap: nowrap;
+  }
+}

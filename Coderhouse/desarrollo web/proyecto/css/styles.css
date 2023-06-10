@@ -1,0 +1,140 @@
+@charset "UTF-8";
+.texto_botón {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.texto_botón:hover {
+  transition: all 0.5s ease;
+  font-size: 20px;
+  color: black;
+}
+
+.contenedor_video {
+  display: flex;
+  justify-content: center;
+}
+
+.subcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+}
+
+/*contenedor anuncio*/
+.contenedor_anuncio {
+  display: flex;
+  justify-content: center;
+}
+
+.anuncioP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  height: 200px;
+  width: 1000px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  .tamaño_imagen {
+    width: 300px;
+    height: 400px;
+  }
+  .texto_botón {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .texto_botón:hover {
+    transition: all 0.5s ease;
+    font-size: 20px;
+    color: black;
+  }
+  .contenedor_video {
+    display: flex;
+    justify-content: center;
+  }
+  .subcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+  }
+  /*contenedor anuncio*/
+  .contenedor_anuncio {
+    display: flex;
+    justify-content: center;
+  }
+  .anuncioP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 200px;
+    width: 1000px;
+  }
+}
+.fuente {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fondo-nav {
+  background-color: white;
+  justify-content: space-between;
+}
+
+.logotipo {
+  width: 100px;
+  height: 100px;
+}
+
+/*hecho con maps*/
+.menu-horizontal li .horizonte_a {
+  display: block;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.menu-horizontal li .horizonte_a:hover {
+  color: coral;
+  font-size: 18px;
+}
+
+.menu-vertical {
+  color: black;
+}
+.menu-vertical:hover {
+  transition: all 0.5s ease;
+  background-color: coral;
+  color: white;
+}
+
+.carrusel_info {
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.anuncioP a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.anuncioP a:hover {
+  font-size: 35px;
+}/*# sourceMappingURL=styles.css.map */

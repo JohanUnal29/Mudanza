@@ -1,0 +1,34 @@
+Invertir en Bitcoin
+Enunciado del problema
+Juan está pensando invertir todos sus ahorros en Bitcoin, pero antes quiere hacer un pequeño análisis bursátil con algunos datos históricos del precio de esta criptomoneda en dólares. Para eso tomará una lista P de precios con cada precio p con 1 <= p <= 65000 de los últimos n días con 2 <= n <= 10000 y para cada día P[n] se debe descubrir cuántos días se tiene que esperar para poder comprar a un precio y luego poder vender a un precio más alto.
+
+Entrada
+Lista de precios de los últimos n días separando cada precio con un espacio
+
+
+Salida
+Días que se debe esperar para comprar a un precio y luego poder vender a un precio más alto, separando cada precio con un espacio.
+
+
+Ejemplos
+
+Entrada Ejemplo 1
+
+2000 2500 2452 3000
+Salida Ejemplo 1
+
+1 2 1 0
+
+Entrada Ejemplo 2
+
+60000 35000 23452 50000
+Salida Ejemplo 2
+
+0 2 1 0
+
+Explicación sobre el primer caso de ejemplo
+Si se compra el primer día a $2000, solo hace falta esperar un día para vender a $2500. Si se compra el segundo día a $2500 hay que esperar 2 días para poder vender a un precio más alto de $3000. Si se compra al tercer día a $2542, se espera un solo día para vender a $3000 . Por último, como ya no hay más datos después del día 4, no se puede vender a un precio mayor de $3000.
+
+Notas
+La salida no debe tener un caracter de nueva línea al final del archivo, de lo contrario puede recibir el veredicto de respuesta incorrecta.
+

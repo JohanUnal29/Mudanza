@@ -1,0 +1,30 @@
+Orden Exposiciones
+Enunciado del problema
+Un profesor de estructuras de datos debe organizar las exposiciones de sus estudiantes sobre los temas que verán en el curso. Descarga la lista de estudiantes y asigna las fechas en el orden como aparecen en la lista, pero el estudiante de apellido Cárdenas se quejó de que su compañero de apellido Valencia tenía la exposición hasta final de semestre, mientras que él la tenía para dentro de 2 días. Para evitar discusiones, el profesor propone un mecanismo diferente para asignar las exposiciones: tomará al primero de la lista, luego al último, luego al segundo, después al penúltimo, y así sucesivamente hasta que todos los estudiantes tengan un tema de exposición. Este semestre, por los sobrecupos, el número de estudiantes n está en el rango 2<=n<=10000. Su misión es obtener la lista que tenga el orden como los estudiantes van a presentar, dada la lista original de la clase. Para eso recibirá la un arreglo de apellidos de la clase que está en orden alfabético y deberá almacenarlo en una lista encadenada. El proceso de obtener la nueva lista de presentaciones también debe hacerse en una lista encadenada.
+
+Entrada
+Lista de apellidos original. Cada apellido está separado por un espacio.
+
+
+Salida
+Nueva lista de apellidos. Cada apellido está separado por un espacio.
+
+
+Ejemplos
+
+Entrada Ejemplo 1
+
+Avila Bermudez Cardenas Ramos Rodriguez Valencia
+Salida Ejemplo 1
+
+Avila Valencia Bermudez Rodriguez Cardenas Ramos
+
+Entrada Ejemplo 2
+
+Bermudez Valencia
+Salida Ejemplo 2
+
+Bermudez Valencia
+
+Notas
+La salida no debe tener un caracter de nueva línea al final del archivo, de lo contrario puede recibir el veredicto de respuesta incorrecta.

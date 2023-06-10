@@ -1,0 +1,14 @@
+main {
+  @extend %flexRowBetween;
+  height: 400px;
+}
+
+section {
+  @include flex($justify: space-evenly, $align: center, $height: 200px, $width: 100%, $wrap: true);
+  border: 02px solid;
+  padding: 10px;
+  div {
+    @include flex($justify: space-evenly, $align: center, $height: 20px, $width: 20px);
+    border: 02px solid;
+  }
+}

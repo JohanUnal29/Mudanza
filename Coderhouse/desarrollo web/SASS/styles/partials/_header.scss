@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: map-get($borders, headerBorder);
+  h1 {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-color: black;
+    color: white;
+  }
+}

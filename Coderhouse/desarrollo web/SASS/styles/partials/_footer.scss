@@ -1,0 +1,21 @@
+footer {
+  background-color: #222;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  ul {
+    list-style-type: none;
+    li {
+      a {
+        color: map-get($links, linksFooterColor)
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: red;
+    color: white;
+  }
+}

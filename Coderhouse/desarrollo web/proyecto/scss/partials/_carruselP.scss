@@ -1,0 +1,14 @@
+
+  .texto_botón{
+    @extend %texto_botón;
+  }
+
+  .texto_botón:hover{
+    @extend %texto_botón_hover;
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 960px) {
+    .tamaño_imagen{
+      @extend %tamaño_imagen;
+    }
+  }

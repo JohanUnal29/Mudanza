@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333333;
+  padding: 0px;
+}
+
+.header .title {
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+  background-color: #222222;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0;
+  padding: 05px;
+}
+
+.navbar ul li a {
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: coral;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #FFFFFF;
+}

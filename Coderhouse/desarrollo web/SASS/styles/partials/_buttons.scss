@@ -1,0 +1,13 @@
+.primario {
+  @extend %botonBase;
+  background-color: red;
+  color: white;
+}
+
+.secundario {
+  @include botones(green, white, black);
+}
+
+.button {
+  @include botones($bgColor: rgb(167, 3, 140), $textColor: rgb(255, 255, 255), $borderColor: rgb(229, 85, 85), $padding: 20px, $radius: true);
+}

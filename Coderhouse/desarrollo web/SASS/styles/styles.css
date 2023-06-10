@@ -1,0 +1,119 @@
+.primario {
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-bottom: 3px solid;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 10px solid rgb(143, 233, 104);
+}
+@media screen and (max-width: 768px) {
+  header {
+    background-color: black;
+    color: white;
+  }
+}
+.topnav {
+  display: flex;
+  list-style-type: none;
+  background-color: #333333;
+  padding: 10px;
+  justify-content: space-evenly;
+  width: 400px;
+  border-radius: 5px;
+}
+.topnav li a {
+  color: rgb(31, 117, 222);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.topnav li a:hover {
+  color: rgb(155, 31, 222);
+}
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li a {
+  color: rgb(152, 222, 31);
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: red;
+    color: white;
+  }
+}
+main {
+  height: 400px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  flex-wrap: wrap;
+  border: 2px solid;
+  padding: 10px;
+}
+section div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  flex-wrap: nowrap;
+  border: 2px solid;
+}
+
+.primario {
+  background-color: red;
+  color: white;
+}
+
+.secundario {
+  border: none;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-bottom: 3px solid black;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.button {
+  border: none;
+  padding: 20px;
+  background-color: rgb(167, 3, 140);
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-bottom: 3px solid rgb(229, 85, 85);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */

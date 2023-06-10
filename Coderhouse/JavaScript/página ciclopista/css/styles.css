@@ -1,0 +1,54 @@
+.fuente {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.view {
+  background: url("https://drive.google.com/uc?export=download&id=1YGy51tBdIHq_yw1G1jszgYorOeQhsIjh") no-repeat center center;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: #4285F4;
+}
+
+.menu-horizontal li {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 1em;
+}
+.menu-horizontal li .horizonte_a {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.menu-horizontal li .horizonte_a:hover {
+  color: white;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #4285F4;
+  }
+  .top-nav-collapse {
+    background-color: #4285F4;
+  }
+}
+.logotipo {
+  width: 100px;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,98 @@
+
+  %texto_botón{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  %texto_botón_hover{
+    transition: all 0.5s ease;
+    font-size: 20px;
+    color: black;
+  }
+
+  %contenedor_video{
+    display: flex;
+    justify-content: center;
+  }
+
+  %subCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+  }
+
+
+  /*contenedor anuncio*/
+  %contenedor_anuncio{
+    display: flex;
+    justify-content: center;
+  }
+
+  %anuncioP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 200px;
+    width: 1000px;
+  }
+
+
+  @media screen and (min-width: 600px) and (max-width: 960px) {
+  
+    %tamaño_imagen{
+      width: 300px;
+      height: 400px; 
+    }
+
+    %texto_botón{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:black;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  
+    %texto_botón_hover{
+      transition: all 0.5s ease;
+      font-size: 20px;
+      color: black;
+    }
+  
+    %contenedor_video{
+      display: flex;
+      justify-content: center;
+    }
+  
+    %subCon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: 400px;
+    }
+  
+  
+    /*contenedor anuncio*/
+    %contenedor_anuncio{
+      display: flex;
+      justify-content: center;
+    }
+  
+    %anuncioP{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+      height: 200px;
+      width: 1000px;
+    }
+
+  }

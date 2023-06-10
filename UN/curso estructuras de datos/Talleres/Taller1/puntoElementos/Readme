@@ -1,0 +1,37 @@
+NO LO PUDE RESOLVER, INTENTAR ALGÚN DÍA SE HACE CON LISTAS DOBLES
+
+
+Elementos Comunes
+Enunciado del problema
+Dados los elementos de dos listas encadenadas diferentes pero con la misma longitud n donde 2<=n<=10000. Se deben recorrer ambas listas al tiempo: la primera lista se recorre de izquierda a derecha y la segunda de derecha a izquierda. Si en alguna iteración se encuentra que dos elementos de ambas listas son iguales, entonces ese elemento se debe eliminar de ambas listas. Por último, se deben imprimir los elementos que quedaron en cada lista.
+
+
+Restricciones
+*Longitud n de cada lista: 2<=n<=10000
+*Cada elemento de las listas está entre 0 y 9
+Entrada
+Elementos de las dos listas encadenadas separados por espacios. Los elementos de la primera lista se separan de los elementos de la segunda lista mediante un salto de línea.
+
+
+Salida
+Elementos resultantes de la primera lista (separados por espacios) seguidos de un salto de línea y luego los elementos de la segunda lista (separados por espacios). |
+
+Ejemplos
+
+Entrada Ejemplo 1
+
+6 1 3 9 2 7
+1 2 4 3 1 6
+Salida Ejemplo 1
+
+9 7
+1 4
+
+Entrada Ejemplo 2
+
+1 2 3
+4 5 6
+Salida Ejemplo 2
+
+1 2 3
+4 5 6

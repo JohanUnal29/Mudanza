@@ -1,0 +1,156 @@
+/* Diseno mobile */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: none;
+  background-color: #222222;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0;
+  padding: 05px;
+}
+
+.navbar ul li a {
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: coral;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #FFFFFF;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "nav"
+  "productos"
+  "servicios"
+  "publicidad"
+  "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  height: 100vh;
+  align-content: end;
+}
+
+.border {
+  border: 02px solid;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: header;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #222222;
+}
+
+header img {
+  border-radius: 100%;
+}
+
+nav {
+  background-color: dodgerblue;
+  grid-area: nav;
+}
+
+footer {
+  background-color: greenyellow;
+  grid-area: footer;
+}
+
+#productos {
+  background-color: darkorchid;
+  grid-area: productos;
+}
+
+#servicios {
+  background-color: aquamarine;
+  grid-area: servicios;
+}
+
+aside {
+  background-color: orange;
+  grid-area: publicidad;
+}
+
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  .grid {
+
+  }
+}
+
+/* Fin de diseno mobile  */
+
+/* Diseno para tableta */
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  .grid {
+    grid-template-areas: 
+    "header header"
+    "nav productos"
+    "nav publicidad"
+    "nav servicios"
+    "footer footer";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  header {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .grid {
+    grid-template-areas: 
+    "header header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "footer footer footer";
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .navbar {
+    display: flex;
+  }
+}
+
+/* Fin de diseno para tableta */
+
+/* Diseno para desktop */
+@media screen and (min-width: 1200px) {
+  .grid {
+    grid-template-areas: 
+    "header header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "footer footer footer";
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows: 80px 1fr 1fr 80px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .navbar {
+    display: flex;
+  }
+}
+
+@media print {
+}
+
+/* Fin de diseno para desktop */

@@ -1,0 +1,73 @@
+.burgerSection {
+  padding: 10px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  animation-name: fondo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+h1 {
+  cursor: default;
+}
+
+.imagenBurger {
+  width: 250px;
+  height: 200px;
+  border: 04px solid #ffffff;
+  border-radius: 05px;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.imagenBurger:hover {
+  width: 260px;
+  height: 210px;
+  opacity: 0.5;
+}
+
+.bolita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  animation-name: bolita;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fondo {
+  0% {
+    background-color: #b99d49;
+    padding: 10px;
+  }
+  25% {
+    background-color: rgb(255, 251, 0);
+    padding: 20px;
+  }
+  50% {
+    background-color: rgb(255, 196, 0);
+  }
+  100% {
+    background-color: #b99d49;
+    padding: 10px;
+  }
+}
+
+@keyframes bolita {
+  0% {
+
+  }
+  50% {
+    transform: translateX(500px) rotate(360deg);
+  }
+  100% {
+    
+  }
+}

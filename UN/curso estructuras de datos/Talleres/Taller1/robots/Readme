@@ -1,0 +1,48 @@
+//quedo a medias, mejorar, listas dobles panitaaa
+
+Robots
+Enunciado del problema
+Los estudiantes de ingeniería mecatrónica tuvieron que hacer un proyecto para una asignatura, el cual consistía en construir un robot sumo. Trabajaron todo el semestre en esto y ahora es momento de poner los robots a prueba.
+
+Cada robot tiene un poder que puede ser un número -10^4 <= n <= 10^4 y poder != 0. El signo del poder indica la dirección a la que se está moviendo el robot: si es positivo, se mueve a la derecha y si es negativo, se mueve a la izquierda.
+
+Cada robot se mueve a la misma velocidad.
+
+Así pues, el profesor del curso decide dividir al salón en dos grupos. Cada grupo estará ubicado en un extremo de la cancha de básquetbol de patios de ingeniería. Los robots que salgan del lado izquierdo de la cancha tendrán un poder positivo (se mueven hacia la derecha), y los que salgan del lado derecho tendrán un poder negativo (se mueven hacia la izquierda), así como se ve en la siguiente imagen: https://drive.google.com/file/d/1DNs3ionTYrjMHAikv7wsHk4OqCCorncx/view?usp=share_link
+
+
+El juego es simple: Cada 5 segundos, cada equipo va a mandar un robot para que se estrelle con el robot del equipo contrario. En el momento en que se estrellan, el robot que tenga más poder va a destruir al robot más débil y seguirá su camino. Si dos robots tienen el mismo poder ambos se destruyen.
+
+
+La lista de poderes de los robots tendrá un tamaño n con 2<=n<=10^6. La tarea es encontrar e imprimir el estado de los robots sumo después de todas las colisiones.
+
+Entrada
+Esta sección está intentada para hacer la descripción de las entradas del problema, por ejemplo: se dice que tiene que leer un número n tal que 0 <= n <= 2000000000.
+
+
+Salida
+Esta sección está intentada para hacer las descripción del formato de la salida o resultado del problema. Por ejemplo se puede decir: "Su programa deberá imprimir en la pantalla (usando cout) un número n como se indicó en el enunciado.".
+
+
+Ejemplos
+
+Entrada Ejemplo 1
+
+2 7 -3
+Salida Ejemplo 1
+
+2 7
+
+Entrada Ejemplo 2
+
+9 5 -10
+Salida Ejemplo 2
+
+-10
+
+Entrada Ejemplo 3
+
+1 -1
+Salida Ejemplo 4
+
+No quedaron robots!
